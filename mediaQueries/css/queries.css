@@ -1,0 +1,31 @@
+h1 {
+    font-size:3em;
+}
+
+.flexContainer {
+    display:flex;
+    flex-direction:column;
+}
+
+@media (min-width:768px){
+   h1 {
+    font-size:4em;
+    } 
+    .flexContainer {
+    display:flex;
+    flex-direction:row;
+    }
+}
+
+@media (min-width:1024px){
+   h1 {
+    font-size:6em;
+    } 
+}
+
+
+@media (min-width:1440px){
+   h1 {
+    font-size:10em;
+    } 
+}
